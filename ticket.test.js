@@ -51,9 +51,8 @@ describe("Movie ticket booking test", () => {
     await page.waitForSelector("h1");
     await clickElement(page, ".page-nav > a:nth-child(5)");
     await clickElement(page, ".movie-seances__time[href='#'][data-seance-id='198']");
-    await clickElement(page, "div:nth-child(8) span:nth-child(4)");
-    expect(
-      String(await page.$eval("button", (button) => {
+    await clickElement(page, "div:nth-child(9) span:nth-child(3)");
+    expect(String(await page.$eval("button", (button) => {
           return button.disabled;
         })
       )
