@@ -49,8 +49,8 @@ When("user chooses 7 row 5 seat", async function () {
   return await clickElement(this.page, "div:nth-child(7) span:nth-child(5)");
 });
 
-When("user chooses 8 row 4 seat - unavailable seat", async function () {
-  return await clickElement(this.page, "div:nth-child(8) span:nth-child(4)");
+When("user chooses 9 row 3 seat - unavailable seat", async function () {
+  return await clickElement(this.page, "div:nth-child(9) span:nth-child(3)");
 });
 
 When("user presses a booking button", async function () {

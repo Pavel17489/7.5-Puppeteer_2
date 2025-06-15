@@ -20,5 +20,5 @@ Feature: Book a seat in the movie app
         Given user is on "/index.php" page
         When user chooses date
         When user chooses time
-        When user chooses 8 row 4 seat - unavailable seat
+        When user chooses 9 row 3 seat - unavailable seat
         Then button for booking is inactive "true"
